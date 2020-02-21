@@ -1,0 +1,102 @@
+/* font awesomes*/
+@font-face { font-family: awesome;
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js");
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+/*css barres competences personnelles*/
+
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/*css des barres elle mêmes de compétences personnelles*/
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 1em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: #8c8c8c;
+}
+/*css pour html*/
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+/*css pour css*/
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+/*css pour bootstrap*/
+.c90{
+    width: 90%;
+    background-color: #4B8;
+}
+/*css pour materialize*/
+.c90{
+    width: 90%;
+    background-color: #4B8;
+}
+/*css pour Sass*/
+.c50{
+    width: 50%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+
+.gallery-title
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.ng-button:hover { background:black; color:white; text-decoration:none; border:1px solid;
+border-radius: 0px;
+}
